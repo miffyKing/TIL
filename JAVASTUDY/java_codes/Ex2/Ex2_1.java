@@ -30,13 +30,25 @@ public class Ex2_1 {
 //        String tostr = "asdfd";
 //
 //        System.out.printf("%s\n",tostr );
-        String input = scanner.nextLine();
-        //int num3 = Integer.parseInt(input);
-        System.out.println(input);
+//        String input = scanner.nextLine();
+//        //int num3 = Integer.parseInt(input);
+//        System.out.println(input);
 
         // 이상한 부분
         // num, num2 를 입력하고 출력한다음에 왜 input str을 안받지?
         // num, num2, input 까지 한번에 쓰고 엔터를 쳐야 제대로나옴.
         //
+
+    // ** 타입 변환 **
+
+        System.out.println('3' - '0');
+        System.out.println('3' + 1);
+        System.out.println('3' - '0' + 1);
+        System.out.println(Integer.parseInt("3")+1);
+        System.out.println("3" + 1);
+        System.out.println(3 + '0');
+        System.out.println((char)(3 + '0'));
+
+
     }
 }
