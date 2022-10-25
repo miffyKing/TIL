@@ -31,10 +31,23 @@
 
 - chap4 12
   - 임의의 정수 만들기
-  -  Math.random() - 0.0 ~ 1.0 사이 임의의 double 을 반환함.
+  - Math.random() - 0.0 ~ 1.0 사이 임의의 double 을 반환함.
+
 ``` JAVA
         for (int i = 1; i<= 5; i++)
         {
             System.out.println((int)(Math.random() * 10));
         }
 ```
+
+- chap4 13, 14
+  - for 문
+  - 조건을 만족하는 동안 반복 - 반복횟수를 알 때 사용
+
+- chap4 14, 15
+  - 중첩 for문
+  - 별찍기ㅋㅋ
+  
+- chap4 16,17,18,19
+  - while 문, do - while 문
+
