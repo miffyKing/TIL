@@ -134,6 +134,7 @@ int num = Integer.parseInt(input); // 문자열을 숫자로 변환.
         System.out.println(Integer.parseInt("3")+1);
         System.out.println("3" + 1);
         System.out.println(3 + '0');
-
-        //차례로 결과가 3, 52, 4, 4, 31, 51
+        System.out.println((char)(3 + '0'));
+        //차례로 결과가 3, 52, 4, 4, 31, 51, 3
+        //51은 '0' 이 48, 거기 3 더한거
  ```
