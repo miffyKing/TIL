@@ -50,4 +50,29 @@
   
 - chap4 16,17,18,19
   - while 문, do - while 문
+  - for는 반복 횟수 알 때, while은 모를 때 주로 씀.
+  - while 같은 경우는 조건식이 거짓일 경우 아예 돌아가지도 않는데, do while은 순서가 반대라 적어도 한번은 돌아간다. 
 
+- chap4 20,21,22,23,24
+  - break, continue
+  - break : 자신이 포함된 하나의 반복문을 벗어난다.
+  - 이름붙은 반복문
+  
+``` JAVA
+ outer :
+        for (int i = 0; i < 10; i++)
+        {
+            System.out.println("!!!!");
+            for (int j = 0; j < 5; j++)
+            {
+                System.out.println(",,,,,");
+                if (i == 3)
+                {
+                    System.out.println("??\n");
+                    break outer;
+                }
+            }
+
+        }
+
+```
