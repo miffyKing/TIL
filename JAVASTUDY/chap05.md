@@ -44,3 +44,20 @@ int[] arr;      // 배열을 선언 (배열을 다루기 위한 참조변수 선
 - chap 5 8,9,10, 11
   - 배열의 활용
 
+- chap5 14, 15 
+  - String 클래스
+  - String 클래스는 Char[] 와 메서드(기능) 을 결합한것
+  - String 클래스 = char[] + 메서드(기능)
+  - String 클래스는 내용 변경 불가 (READ ONLY)
+  
+  - charAt(int index) : index 위치에 있는 문자 반환.
+  - int length() : 문자열 길이 반환
+  - substring(int from , int to) : 해당 범위의 문자열 반환. to는 포함 안됨.
+  - equals(Object obj) : 문자열 내용이 같은지 확인한다.
+  - toCharArray() : 문자열을 문자배열 (char[]) 로 변환, 반환한다.
+
+- char5 24
+  - Arrays (클래스) 로 배열 다루기
+  - 문자열 비교와 출력 - equals, toString.
+  - 배열의 복사 - copyOf(), copyOfRange().
+  - 배열의 정렬 - sort().
