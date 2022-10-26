@@ -1,3 +1,5 @@
+package java_codes.Ex2;
+
 import java.util.*;
 
 public class Ex2_1 {
